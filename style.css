@@ -1,0 +1,402 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .slide_position {
+        position: relative;
+    }
+    
+    .nav_position {
+        position: absolute;
+        margin-top: -53%;
+        margin-left: 20%;
+    }
+    
+    .nav-link {
+        color: white !important;
+        font-weight: 600 !important;
+    }
+    
+    .nav-item span,
+    i {
+        color: white;
+    }
+    
+    .menu_item {
+        display: flex;
+        justify-content: space-around;
+        width: 125%;
+    }
+    
+    #bread {
+        border-right: 1px sloid white;
+    }
+    
+    .iotposi {
+        margin-top: -19%;
+        margin-left: 23%;
+        color: white;
+        position: absolute;
+        white-space: nowrap;
+        text-transform: uppercase;
+        font-size: 70px;
+        font-weight: 600 !important;
+    }
+    
+    #title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 99;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        font-size: 70px;
+        font-weight: 900 !important;
+        text-transform: uppercase;
+        visibility: visible;
+    }
+    
+    .icon {
+        display: flex;
+        margin: 0% 15% 0% 19%;
+    }
+    
+    .card {
+        margin: 1%;
+        padding: 2%;
+        width: 80px;
+    }
+    
+    .card img {
+        width: 20%;
+        height: auto;
+    }
+    
+    .benefit {
+        text-transform: uppercase;
+        background-color: #fbfbfb;
+        padding: 20px;
+    }
+    
+    .benefit_title {
+        margin: 3% 20% 0% 20%;
+    }
+    
+    .benefit_title h6 {
+        color: grey;
+    }
+    
+    .benefit_option {
+        display: flex;
+        padding-top: 3px;
+    }
+    
+    .benefit_option ul {
+        font-size: 2.25rem;
+        color: #9b9b9b;
+        font-weight: 700;
+        border: none;
+        margin: 2px 20px 0px 2px;
+        background: no-repeat;
+    }
+    
+    .benefit_option button:active {
+        border: none !important;
+    }
+    
+    .benefit_option button:visited {
+        border: none !important;
+    }
+    
+    .card_text_title {
+        font-weight: 700 !important;
+        color: black;
+    }
+    
+    .card_text_des {
+        font-size: 12px;
+        text-transform: lowercase;
+    }
+    
+    .card_text_price {
+        font-size: 15px;
+    }
+    
+    .card_text_detail a::after {
+        content: " ▶";
+    }
+    
+    .event_text_title {
+        font-weight: 800 !important;
+        font-size: 40px;
+        padding: 1px;
+        border: none !important;
+    }
+    
+    .MultiCarousel {
+        float: left;
+        overflow: hidden;
+        padding: 15px;
+        width: 100%;
+        position: relative;
+    }
+    
+    .MultiCarousel .MultiCarousel-inner {
+        transition: 1s ease all;
+        float: left;
+    }
+    
+    .MultiCarousel .MultiCarousel-inner .item {
+        float: left;
+    }
+    
+    .MultiCarousel .MultiCarousel-inner .item>div {
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        background: #f1f1f1;
+        color: #666;
+    }
+    
+    .partner {
+        text-transform: uppercase;
+        background-color: #fbfbfb;
+        padding: 5%;
+        width: 100%;
+    }
+    
+    .iot_partner .thumbnail {
+        border: none;
+    }
+    
+    .partner_title h6 {
+        justify-content: center;
+        font-weight: 800 !important;
+        font-size: 15px;
+        color: black !important;
+        padding-left: 45%;
+    }
+    
+    .partner_title {
+        margin: 20px;
+    }
+    
+    .thumbnail {
+        width: 100%;
+        border: 1px solid #e8e8e8;
+        margin: 7px;
+        padding: 5px;
+        display: flex;
+    }
+    
+    .thumbnail a img {
+        width: 100%;
+    }
+    
+    .thumbnail a {
+        text-decoration: none;
+        color: blue !important;
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 15px;
+        margin-right: 10px
+    }
+    
+    .intro .card {
+        text-transform: uppercase;
+        background-color: #fbfbfb;
+        padding: 0px;
+        width: 100%;
+        background: no-repeat;
+        border: none;
+    }
+    
+    .intro {
+        display: flex;
+        justify-content: space-between;
+        padding: 5% 20% 5% 20%;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    
+    .intro_title {
+        color: black;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    
+    .intro_content {
+        color: grey;
+        font-weight: 400;
+        font-size: 15px;
+        text-transform: lowercase;
+    }
+    
+    .c-footer .o-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .c-footer {
+        background: #025b93;
+        padding: 1.25rem 0 0;
+    }
+    
+    .o-container {
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    
+    .c-footer .list__submenu li {
+        width: 133%;
+        list-style-type: none;
+    }
+    
+    .c-footer .list__submenu li a {
+        font-size: .875rem;
+        color: #fff;
+        /* line-height: 1.875rem; */
+    }
+    
+    .c-footer .title-footer {
+        font-size: 2rem;
+        color: #fff;
+        line-height: 1.75rem;
+        margin-bottom: 1.0625rem;
+        display: flex;
+    }
+    
+    .footer_center {
+        border: 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+    }
+    
+    .social_circle {
+        display: flex;
+        padding-top: 4%;
+    }
+    
+    .social_circle circle {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        margin: 20px 2px 0px 2px;
+    }
+    
+    .circle a i {
+        border-radius: 100%;
+        background: #ccdee9;
+        margin: 2px;
+        width: 42px;
+        height: 34px;
+        display: block;
+        text-align: center;
+        line-height: 1.50;
+        font-size: 20px;
+        color: #025b93;
+    }
+    
+    .logo-footer a img {
+        vertical-align: top;
+    }
+    
+    .footer-left {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .footer-left p {
+        font-size: .875rem;
+        color: #fff;
+        line-height: 1.875rem;
+    }
+    
+    .center {
+        display: flex;
+    }
+    
+    .intro_center {
+        margin-right: 25px;
+    }
+    
+    .footer-bottom {
+        border-top: 1px solid #b4b4b4;
+        padding-top: 5px;
+    }
+    
+    .bottom_title p {
+        color: white;
+        margin-top: 5px;
+    }
+    
+    .o-container p {
+        color: white;
+    }
+    
+    .footer-left p {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .nav_hover a:hover {
+        border-bottom: 1px solid white;
+        padding-bottom: 0.625rem;
+    }
+    
+    .item img:hover {
+        opacity: 0.5;
+        transition-duration: 0.5s;
+    }
+    
+    .iot_partner .thumbnail_partner {
+        border: none;
+        display: block;
+        margin-right: 15px;
+        padding-bottom: 2%;
+    }
+    
+    .iot_partner .thumbnail_partner .bottom_hover {
+        margin-right: 37px;
+    }
+    
+    .iot_partner .bottom_radius {
+        width: 88%;
+        height: 8px;
+        /* border: 1px solid black; */
+        /* background-color: #7a062c; */
+        margin-top: 6px;
+        border-radius: 50%;
+    }
+    
+    .iot_partner .thumbnail_partner:hover .bottom_radius {
+        background-color: grey;
+        opacity: 0.3;
+        transition-duration: 0.5s;
+    }
+    
+    .iot_partner .thumbnail_partner:hover .bottom_hover {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+        transition-duration: 0.5s;
+    }
+    
+    .icon .thumbnail:hover {
+        opacity: 0.5;
+    }
+    
+    .MultiCarousel-inner .item {
+        margin: 2px;
+    }
